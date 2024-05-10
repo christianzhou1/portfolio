@@ -1,3 +1,15 @@
+:root {
+    --off-white: #dddddd;
+    --brunswick-green: #003D39;
+    --dutch-white: #E2D4B7;
+    --russian-blue: #0D0630;
+    --carolina-blue: #74B3CE;
+    --fire-engine-red: #C51B29;
+    --blue-graident: linear-gradient(175deg, #384E77, #0D0630);
+    --sinopia: #C73E1D;
+}
+
+
 body {
     margin:0;
     padding: 0;
@@ -32,39 +44,39 @@ body {
     min-width: 100%;
     align-items: center;
     //justify-content: center;
-    background-image:linear-gradient(175deg, #384E77, #0D0630);
+    background-image: var(--blue-graident);
     
-    color: rgb(223, 223, 223);
+    color: var(--off-white);
 }
 
 .about{
-    color: rgb(223, 223, 223);
+    color: var(--off-white);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:linear-gradient(175deg, rgb(92, 91, 46), rgb(41, 40, 126));
+    background-image:var(--blue-graident)
 }
 
 .projects{
-    color: rgb(223, 223, 223);
+    color: var(--off-white);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:linear-gradient(175deg, rgb(92, 91, 46), rgb(41, 40, 126));
+    background-image:var(--blue-graident)
 }
 
 .contact{
-    color: rgb(223, 223, 223);
+    color: var(--off-white);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:linear-gradient(175deg, rgb(92, 91, 46), rgb(41, 40, 126));
+    background-image:var(--blue-graident)
 }
 
 
@@ -80,10 +92,11 @@ body {
 .desc {
     //padding: 20px;
     //margin: auto;
-    width: 60em;
-    max-width: 90%;
+    width: 40em;
+    max-width: 80%;
     padding: 20px;
-    border: 1px solid #D5C67A;
+    border: 1.5px solid var(--dutch-white);
+    border-radius: 15px;
 }
 
 .menu{
@@ -94,19 +107,25 @@ body {
     max-width: 90%;
     margin-top: 40px;
     //margin: auto;
-    padding: 20px 0;
-    background-color: #003D39;
+    padding: 10px 0;
+    background-color: var(--brunswick-green);
     justify-content: space-around;
     font-size: 28px;
-    border: 1px solid #D5C67A;
+    border: 2px solid var(--russian-blue);
     //border-radius: 10px;
 }
 .menu a{
-    color: rgb(223, 223, 223);
+    transition: all 0.2s;
+    color: var(--off-white);
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
 }
 .menu a:hover{
-        color: rgb(119, 201, 226);
+    color: var(--sinopia);
+    border-color: var(--sinopia);
 }
+.menu a:
 
 
 /* about */
