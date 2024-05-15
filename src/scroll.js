@@ -4,15 +4,15 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     scrollTopButton.style.display = "block";
   } else {
     scrollTopButton.style.display = "none";
   }
 }
-// Bind your button click, scroll direction and effect speed
+/* // Bind your button click, scroll direction and effect speed
 document.getElementById("scroll-top-btn").onclick = function() {
-  scrollTo(0, 1000);
+  scrollTo(0, 2000);
 
 }
 
@@ -33,7 +33,7 @@ function scrollToC(element, from, to, duration) {
   if (typeof from === "object") from = from.offsetTop;
   if (typeof to === "object") to = to.offsetTop;
 
-  scrollToX(element, from, to, 0, (1 / duration) * 2, 70, easeOutCuaic);
+  scrollToX(element, from, to, 0, 1 / duration, 20, easeOutCuaic);
 }
 
 function scrollToX(element, xFrom, xTo, t01, speed, step, motion) {
@@ -52,4 +52,4 @@ function scrollToX(element, xFrom, xTo, t01, speed, step, motion) {
 function easeOutCuaic(t) {
   t--;
   return t * t * t + 1;
-}
+} */
