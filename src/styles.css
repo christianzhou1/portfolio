@@ -9,6 +9,10 @@
     --sinopia: #C73E1D;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
 
 body {
     margin:0;
@@ -18,7 +22,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 350;
     font-size: 20px;
-    scroll-behavior: smooth;
 }
 
 .light {
@@ -47,6 +50,7 @@ body {
     background-image: var(--blue-graident);
     
     color: var(--off-white);
+    scroll-snap-align: start;
 }
 
 .about{
@@ -56,7 +60,8 @@ body {
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:var(--blue-graident)
+    background-image:var(--blue-graident);
+    scroll-snap-align: start;
 }
 
 .projects{
@@ -66,7 +71,8 @@ body {
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:var(--blue-graident)
+    background-image:var(--blue-graident);
+    scroll-snap-align: start;
 }
 
 .contact{
@@ -76,7 +82,8 @@ body {
     min-height: 100vh;
     min-width: 100%;
     align-items: center;
-    background-image:var(--blue-graident)
+    background-image:var(--blue-graident);
+    scroll-snap-align: start;
 }
 
 
@@ -125,7 +132,6 @@ body {
     color: var(--sinopia);
     border-color: var(--sinopia);
 }
-.menu a:
 
 
 /* about */
