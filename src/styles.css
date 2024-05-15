@@ -11,7 +11,13 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    scroll-snap-destination: 50% 90%;
+    scroll-snap-points-y: repeat(100%);
+    
+    overflow-y: scroll;
 }
 
 body {
@@ -36,6 +42,33 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll-top-btn {
+    display: none;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: var(--fire-engine-red);
+    color: var(--off-white);
+    border: none;
+    cursor: pointer;
+}
 
 
 
@@ -133,6 +166,12 @@ body {
     border-color: var(--sinopia);
 }
 
+@media screen and (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* about */
 /* .about-content {
