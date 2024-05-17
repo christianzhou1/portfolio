@@ -1,5 +1,5 @@
 var scrollTopButton = document.getElementById("scroll-top-btn");
-window.onscroll = function() {
+window.onscroll = () => {
   scrollFunction()
 };
 
