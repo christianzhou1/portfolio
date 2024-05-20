@@ -202,6 +202,12 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    .spotify-embed-container{
+        align-items: center;
+    }
+    .spotify-embed{
+        margin-left: 0;
+    }
 }
 
 /* about */
