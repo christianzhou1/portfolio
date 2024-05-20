@@ -43,8 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   let iframes = document.getElementsByTagName("iframe");
+  console.log("hello");
   for (var i=0; i<iframes.length; i++) {
-    console.log(iframes[i].src);
+    console.log(iframes[i]);
   }
 
 
@@ -54,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('is-visible');
-      } else {
+      } /* else {
         entry.target.classList.remove('is-visible');
-      }
+      } */
     });
   }
 

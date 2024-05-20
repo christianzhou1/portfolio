@@ -58,6 +58,7 @@ body {
   align-items: start;
   height: 100%;
   width: 100%;
+  margin-top: 20px;
   //border: 1px solid var(--fire-engine-red);
   //padding-left: 200px;
   //padding-left: 40px;
@@ -67,10 +68,10 @@ body {
 .spotify-embed {
   max-width: 600px;
   min-width: 50%;
-  height: 300px;
+  height: 352px;
   margin-left: 100px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   //border: 2px solid yellow;
 }
 
