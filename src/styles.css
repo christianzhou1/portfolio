@@ -72,8 +72,15 @@ body {
   height: 352px;
   margin-left: 100px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   //border: 2px solid yellow;
+}
+
+.embed-player {
+  transition: transform 0.5s ease-in-out;
+}
+.embed-player:hover {
+  transform: scale(1.03);
 }
 
 #scroll-top-btn {
@@ -174,6 +181,10 @@ body {
   padding: 20px;
   border: 1.5px solid var(--dutch-white);
   border-radius: 15px;
+  transition: transform 0.7s ease-in-out;
+}
+.desc:hover {
+  transform: scale(1.02);
 }
 
 .menu {
@@ -192,7 +203,7 @@ body {
   //border-radius: 10px;
 }
 .menu a {
-  transition: all 0.2s;
+  transition: transform 0.4s ease, color 0.2s linear, border-color 0.2s linear;
   color: var(--off-white);
   padding: 10px;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -201,6 +212,7 @@ body {
 .menu a:hover {
   color: var(--sinopia);
   border-color: var(--sinopia);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {
