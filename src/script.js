@@ -117,7 +117,8 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   function scrollFunction() {
-    if (document.body.scrollTop > 700) {
+    //console.log("scrolling");
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
       //scrollTopButton.style.display = "block";
       //scrollTopButton.classList.toggle("fade-in");
       if (!scrollTopButton.classList.contains("visible")) {
