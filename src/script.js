@@ -1,15 +1,30 @@
-var scrollTopButton = document.getElementById("scroll-top-btn");
-window.onscroll = () => {
-  scrollFunction()
-};
+document.addEventListener("DOMContentLoaded", function() {
+  var scrollTopButton = document.getElementById("scroll-top-btn");
+  
+  window.onscroll = () => {
+    scrollFunction()
+  };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    scrollTopButton.style.display = "block";
-  } else {
-    scrollTopButton.style.display = "none";
+  function scrollFunction() {
+    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+      //scrollTopButton.style.display = "block";
+      //scrollTopButton.classList.toggle("fade-in");
+      if (!scrollTopButton.classList.contains("visible")) {
+        scrollTopButton.classList.add("visible");
+        scrollTopButton.classList.remove("hidden");
+        //console.log("visible");
+      }
+    } else {
+      //scrollTopButton.style.display = "none";
+      //scrollTopButton.classList.toggle("fade-out");
+      if (!scrollTopButton.classList.contains("hidden")) {
+        scrollTopButton.classList.add("hidden");
+        scrollTopButton.classList.remove("visible");
+        //console.log("hidden");
+      }
+    }
   }
-}
+});
 /* // Bind your button click, scroll direction and effect speed
 document.getElementById("scroll-top-btn").onclick = function() {
   scrollTo(0, 2000);
