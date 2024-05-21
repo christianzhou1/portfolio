@@ -5,7 +5,7 @@
   --russian-blue: #0d0630;
   --carolina-blue: #74b3ce;
   --fire-engine-red: #c51b29;
-  --blue-graident: linear-gradient(175deg, #0d234b, #060218);
+  --blue-graident: linear-gradient(160deg, #0c3279, #87b2cf);
   --sinopia: #c73e1d;
 }
 
@@ -77,7 +77,8 @@ body {
 }
 
 .embed-player {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .embed-player:hover {
   transform: scale(1.03);
@@ -93,11 +94,14 @@ body {
 #scroll-top-btn.visible {
   opacity: 1;
   visibility: visible;
+  transform: none;
 }
 
 #scroll-top-btn.hidden {
   opacity: 0;
   visibility: hidden;
+  transform: translateY(10vh);
+  transition: transform 0.5s ease;
 }
 
 #scroll-top-btn a {
@@ -117,6 +121,10 @@ body {
   color: var(--off-white);
   border: none;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#scroll-top-btn a:hover {
+  transform: scale(1.1);
 }
 
 .home {
@@ -201,6 +209,7 @@ body {
   font-size: 28px;
   border: 2px solid var(--russian-blue);
   //border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .menu a {
   transition: transform 0.4s ease, color 0.2s linear, border-color 0.2s linear;
