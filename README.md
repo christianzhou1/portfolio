@@ -9,6 +9,7 @@ The intention of this project is to learn the basics of frontend development thr
 I plan to redesign and improve the layout, as well as implement some new CSS and JavaScript features.
 
 ## Overview
+- Hosted with Vercel
 - Hero, About, Projects, and Contact sections.
 - Spotify embed player.
 - Scroll-to-top button which appears when the page is scrolled down.
