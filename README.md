@@ -1,6 +1,6 @@
 # Portfolio
 
-This is the first iteration of my portfolio website, created with HTML, CSS, and JavaScript.
+This is the first iteration of my portfolio website, created with HTML, CSS, and JavaScript. Current URL: https://portfolio-psi-ashy-43.vercel.app/
 
 ## Project Intent
 The intention of this project is to learn the basics of frontend development through real-world practice.
