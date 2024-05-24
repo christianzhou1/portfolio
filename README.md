@@ -24,3 +24,4 @@ I plan to redesign and improve the layout, as well as implement some new CSS and
 - Add contact information (email, phone, etc.) at the top of the page.
 - Add contact information to the Contact section.
 - Implement scrolling effects (scaling, color, etc.)
+- Customize domain name and add URL to resume.
