@@ -19,6 +19,7 @@ I plan to redesign and improve the layout, as well as implement some new CSS and
 ## To-Do List
 - Add resume download/display functionality to the CV button in the menu.
 - Fold Spotify embeds into a "Music" dropdown, and add descriptions to the right of the dropdown. All future elements in the About section will follow this dropdown style.
-- Add personal experiences with programming to the Projects section (e.g., ShuttleTrak, -2XC3 final lab, this website, and more if I remember any).
+- Add personal experiences with programming to the Projects section (e.g., ShuttleTrak, -2XC3 final lab, this website, and more if I remember any). Could learn to implement CSS grid for this.
 - Add contact information (email, phone, etc.) at the top of the page.
 - Add contact information to the Contact section.
+- Implement scrolling effects (scaling, color, etc.)
