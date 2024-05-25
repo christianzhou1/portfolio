@@ -53,27 +53,36 @@ body {
   visibility: visible;
 }
 
-.drop-down-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  height: 100%;
-  width: 90%;
-  margin-top: 20px;
-  //border: 1px solid var(--fire-engine-red);
-  //padding-left: 200px;
-  //padding-left: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+.dropdown-menu {
+  border: 1px solid var(--off-white);
+  width: 50%;
+}
+
+.dropdown-btn {
+  width: 100%;
+  height: 50px;
+}
+
+.dropdown-content {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  //position: absolute;
+}
+
+.dropdown-content li {
+  position: relative;
+  border: 1px solid var(--off-white);
 }
 
 .spotify-embed {
-  max-width: 600px;
-  min-width: 50%;
-  height: 352px;
-  margin-left: 100px;
-  margin-top: 0px;
-  margin-bottom: 40px;
+  //max-width: 600px;
+  //min-width: 50%;
+  height: 152px;
+  width: 100%;
+  //margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   //border: 2px solid yellow;
 }
 

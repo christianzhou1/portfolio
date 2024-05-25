@@ -51,6 +51,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // fade into view
   // Function to handle intersection events
+  
+  // Create an Intersection Observer
+  let observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.1  // Adjust this threshold as needed
+  });
+  
   function handleIntersection(entries, observer) {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -60,12 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
       } */
     });
   }
-
-  // Create an Intersection Observer
-  let observer = new IntersectionObserver(handleIntersection, {
-    threshold: 0.1  // Adjust this threshold as needed
-  });
-
   // Select all elements with the class 'fade-into-view'
   let elementsToObserve = document.querySelectorAll('.fade-into-view');
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
-  //-------------------------------------------------------------
+//-------------------------------------------------------------
 /*   var animatedElement = document.getElementById("fade-into-view");
         //var triggered = false;
 
