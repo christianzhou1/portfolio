@@ -53,7 +53,7 @@ body {
   visibility: visible;
 }
 
-.spotify-embed-container {
+.drop-down-menu {
   display: flex;
   flex-direction: column;
   align-items: start;
