@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.resume-container {
+  position: relative;
+  width: 816px;
+  height: 1056px;
+  max-width: 100%;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  max-height: 100%;
+}
