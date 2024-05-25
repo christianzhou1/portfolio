@@ -56,11 +56,30 @@ body {
 .dropdown-menu {
   border: 1px solid var(--off-white);
   width: 50%;
+  width: 40em;
+  max-width: 80%;
+  padding: 20px;
+  border: 1.5px solid var(--dutch-white);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.4s ease-in-out;
+}
+.dropdown-menu:hover {
+  transform: scale(1.02);
 }
 
 .dropdown-btn {
   width: 100%;
   height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: var(--off-white);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 350;
+  font-size: 30px;
+  font-display: swap;
+  text-align: left;
 }
 
 .dropdown-content {
@@ -72,7 +91,7 @@ body {
 
 .dropdown-content li {
   position: relative;
-  border: 1px solid var(--off-white);
+  border: 2px solid yellow;
 }
 
 .spotify-embed {
@@ -202,7 +221,7 @@ body {
   transition: transform 0.7s ease-in-out;
 }
 .desc:hover {
-  transform: scale(1.02);
+  transform: scale(1.06);
 }
 
 .menu {
