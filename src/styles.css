@@ -128,7 +128,7 @@ body {
   transform: scale(1.1);
 }
 
-.home {
+.section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -141,7 +141,7 @@ body {
   //scroll-snap-align: start;
 }
 
-.about {
+/* .about {
   color: var(--off-white);
   display: flex;
   flex-direction: column;
@@ -172,7 +172,7 @@ body {
   align-items: center;
   background-image: var(--blue-graident);
   //scroll-snap-align: start;
-}
+} */
 
 /* home */
 
